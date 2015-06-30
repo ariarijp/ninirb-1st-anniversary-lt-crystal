@@ -12,6 +12,7 @@ Crystalがインストールされている前提です
 ```
 $ crystal hello.cr -- hogehoge
 $ crystal json_example.cr
+$ crystal json_example_alt.cr # alternative, better way
 ```
 
 ## Dockerで動かす
@@ -20,6 +21,7 @@ Macでboot2dockerを使う前提です
 ```
 $ docker run -it -v `pwd`:/mnt ariarijp/crystal crystal /mnt/hello.cr -- hogehoge
 $ docker run -it -v `pwd`:/mnt ariarijp/crystal crystal /mnt/json_example.cr
+$ docker run -it -v `pwd`:/mnt ariarijp/crystal crystal /mnt/json_example_alt.cr # alternative, better way
 ```
 
 # Credits
